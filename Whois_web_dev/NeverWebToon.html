@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>네이버 만화 > 요일별  웹툰 > 전체웹툰</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div id = "header_wrap">
+    <div id="header">
+        <div id="gnb" >
+            <ul class="gnb_lst" id="gnb_lst" style="display:block;">
+              <li class="gnb_login_li" id="gnb_login_layer" style="display: inline-block;">
+                <a class="gnb_btn_login" href="http://106.10.51.136" id="gnb_btn_login">
+                  <span class="gnb_txt">로그인</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+    <div id="snb_wrap">
+      <h1>
+        <a href="https://naver.com" class="Ntxt_naver" title="NAVER">NAVER</a>
+        <a title="만화" class="Ntxt_comic">만화</a>
+        <em class="bar">|</em>
+        <a title="웹소설" class="Ntxt_web_nobel">웹소설</a>
+      </h1>
+      <form id="searchForm" name="search" method="get">
+        <fieldset>
+          <div class="snb_search_box_sub">
+
+            <input type="text" id="gnb.keyword" name="keyword" value="제목/작가로 검색할 수 있습니다." maxlength="18" class="snb_search_text"
+              onfocus="this.value =''">
+            <button type="button" class="btn_search" id="search_bar_button" title="검색">
+              <span class="Nico_search">검색</span>
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+
+    <div id="menu">
+      <ul class="menu">
+        <li>
+            <a class = "Ntab">
+            <span class = "Ntxt_home">홈</span>
+            </a>
+          </li>
+        <li>
+            <a class = "Ntab_selected">
+            <span class = "Ntxt_webtoon">웹툰</span>
+            </a>
+          </li>
+        <li>
+            <a class = "Ntab">
+            <span class = "Ntxt_best_challenge">베스트 도전</span>
+            </a>
+          </li>
+        <li>
+          <a class = "Ntab">
+          <span class = "Ntxt_challenge_comic">도전만화</span>
+          </a>
+        </li>
+        <li>
+          <a class = "Ntab">
+          <span class = "Ntxt_mypage">마이페이지</span>
+          </a>
+          <span class ="bar" span></span>
+        </li>
+
+        <li>
+            <a class = "Ntab">
+            <span class = "Ntxt_short_story">단행본 만화</span>
+            </a>
+        </li>
+        <li>
+            <a class = "Ntab">
+            <span class = "Ntxt_genre_novel">장르소설</span>
+            </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="submenu">
+    <ul class="submenu">
+      <li class="on">
+        <a href="http://www.naver.com">
+          <span class="Ntxt_menu_date">요일별</span>
+        </a>
+      </li>
+      <li class="subtab">
+        <span class="Ntxt_menu_genre">장르별</span>
+      </li>
+      <li class="subtab">
+          <span class="Ntxt_menu_genre">작품별</span>
+      </li>
+      <li class="subtab">
+          <span class="Ntxt_menu_genre">작가별</span>
+      </li>
+      <li class="subtab">
+          <span class="Ntxt_menu_genre">연도별</span>
+      </li>
+      <li class="subtab">
+          <span class="Ntxt_menu_genre">테마웹툰</span>
+      </li>
+      <li class="subtab">
+          <span class="Ntxt_menu_genre">완결웹툰</span>
+      </li>
+    </ul>
+  </div>
+  <div id="container">
+    <div id="content" class="webtoon">
+      <ul class="category_tab">
+        <li class="on">
+          <a onclick="nclk_v2(event,'dna.all')" href="https://comic.naver.com/webtoon/weekday.nhn">요일전체</a>
+        </li>
+        <li>
+          <a>월요웹툰</a>
+        </li>
+        <li>
+          <a>화요웹툰</a>
+        </li>    
+        <li>
+          <a>수요웹툰</a>
+        </li>    
+        <li>
+          <a>목요웹툰</a>
+        </li>
+        <li>
+          <a>금요웹툰</a>
+        </li>
+        <li>
+          <a>토요웹툰</a>
+        </li>
+        <li>
+          <a>일요웹툰</a>
+        </li>  
+      </ul>
+      <div class="webtoon_spot2">
+        <h3 class="sub_tit">이달의 신규 웹툰</h3>
+        <ul>
+          <li>
+            <div class="thumb7">
+              <a>
+                mojo
+              </a>
+            </div>
+          </li>
+          <li>
+
+          </li>
+          <li>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="aside">
+
+    </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+
